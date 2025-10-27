@@ -1,7 +1,6 @@
 const express = require("express");
 const connectDB = require("./config/db/db");
 const cors = require("cors");
-const { default: axios } = require("axios");
 const likeModel = require("./models/LikeModel");
 const publicRouter = require("./routes/publicRouter");
 require("dotenv").config();
